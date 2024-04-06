@@ -5,62 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase Html</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./reset.css">
 </head>
   <body>
     <header>
-      <h1>Mi primer HTML</h1>
+      <div class="titulo">
+        <h1>Mi primer HTML</h1>
+      </div>
     </header>
 
     <main>
         <section>
-            <hr>
-            <article>
-                <h2>Comenzando en Henry</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem hic vero aliquid cum unde dignissimos officia quos illum reiciendis tenetur placeat rerum magni obcaecati, dolorum atque quibusdam. Iusto, illo.</p>      
-            </article>
-            <hr/>
-            <article>
-                <h2>Aprendiendo HTML</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem hic vero aliquid cum unde dignissimos officia quos illum reiciendis tenetur placeat rerum magni obcaecati, dolorum atque quibusdam. Iusto, illo.</p>      
-            </article>
-            <hr>
-            <article>
-                <h2>Aprendiendo CSS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem hic vero aliquid cum unde dignissimos officia quos illum reiciendis tenetur placeat rerum magni obcaecati, dolorum atque quibusdam. Iusto, illo.</p>      
-            </article>
-            <hr>
-            <article>
-                <h2>Aprendiendo javaScript</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem hic vero aliquid cum unde dignissimos officia quos illum reiciendis tenetur placeat rerum magni obcaecati, dolorum atque quibusdam. Iusto, illo.</p>      
-            </article>
-            <hr>
+            <div class="articulo-container">
+                <article class="articulo">
+                    <h2>Comenzando en Henry</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem hic vero aliquid cum unde dignissimos officia quos illum reiciendis tenetur placeat rerum magni obcaecati, dolorum atque quibusdam. Iusto, illo.</p>      
+                </article>
+                
+                <article class="articulo">
+                    <h2>Aprendiendo HTML</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem hic vero aliquid cum unde dignissimos officia quos illum reiciendis tenetur placeat rerum magni obcaecati, dolorum atque quibusdam. Iusto, illo.</p>      
+                    <img class="imagen" src="../c4 css/img/logohtml.jpg" alt="html">
+                    <button class="btn">Ver mas</button>   
+                </article>
+                
+                <article class="articulo">
+                    <h2>Aprendiendo CSS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem hic vero aliquid cum unde dignissimos officia quos illum reiciendis tenetur placeat rerum magni obcaecati, dolorum atque quibusdam. Iusto, illo.</p>      
+                    <img class="imagen" src="../c4 css/img/logocss.jpg" alt="css">
+                    <button class="btn">Ver mas</button>   
+                </article>
+                
+                <article class="articulo">
+                    <h2>Aprendiendo javaScript</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et autem hic vero aliquid cum unde dignissimos officia quos illum reiciendis tenetur placeat rerum magni obcaecati, dolorum atque quibusdam. Iusto, illo.</p>   
+                    <img class="imagen" src="../c4 css/img/logojavascript.jpg" alt="javaScript">
+                    <button class="btn">Ver mas</button>   
+                </article>
+            </div>
+            
+            
         </section>
         <section>
-            <div>
-                <ul>
-                    <h2>listado de items desordenado</h2>
-                    <li>item a</li>
-                    <li>item b</li>
-                    <li>item c</li>
-                    <li>item D</li>
-                </ul>
+            <div class="listado-container">
+                <div class="listado">
+                    <ul>
+                        <div class="titulo-listado">
+                            <h2>listado de items desordenado</h2>
+
+                        </div>
+                        <li>item a</li>
+                        <li>item b</li>
+                        <li>item c</li>
+                        <li>item D</li>
+                    </ul>
+                </div>
+                <div class="listado">
+                    <ol>
+                        <div class="titulo-listado">
+                            <h2>listado de items ordenado</h2>
+
+                        </div>
+                        <li>item a</li>
+                        <li>item b</li>
+                        <li>item c</li>
+                        <li>item D</li>
+                    </ol>
+                </div>
             </div>
-            <hr>
-            <div>
-                <ol>
-                    <h2>listado de items ordenado</h2>
-                    <li>item a</li>
-                    <li>item b</li>
-                    <li>item c</li>
-                    <li>item D</li>
-                </ol>
-            </div>
+         
             
         
         </section>
     </main>
     <footer>
-        <a href="./registro.html">Formulario de Registro</a>
+        <div class="registro">
+            <a href="./registro.html">Formulario de Registro</a>
+            <a href="./registro.html">Acerca de</a>
+            <a href="./registro.html">Sobre nosotros</a>
+            <a href="./registro.html">Preguntas frecuentes</a>
+
+        </div>
     </footer>
   </body>
 </html>

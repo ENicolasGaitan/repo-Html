@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ecfcd3;
+    color: #333;
+  }
+
+  .labels {
+    display: inline-block;
+    width: 100px;
+  }
+
+  .inputs {
+    padding-bottom: 10px;
+  }
+  .titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+  }
